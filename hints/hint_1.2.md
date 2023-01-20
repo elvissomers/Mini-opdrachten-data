@@ -1,0 +1,2 @@
+# Hint voor opdracht 1.2
+Maak gebruik van de functies `print()`, `len()` en het attribuut `.columns` van de DataFrame (gebruiksvoorbeeld voor een DataFrame opgeslagen in de variabele `df`: `df.columns`).

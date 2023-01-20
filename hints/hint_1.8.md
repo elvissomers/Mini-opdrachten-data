@@ -1,0 +1,2 @@
+# Hint voor opdracht 1.8
+Om niet de namen van rijen en kolommen te gebruiken, maar de indices gebruik je bij pandas `df.iloc[rijen, kolommen]`. Hierbij kunnen ook weer slices `start:stop:step` gebruikt worden of lijsten met letterlijke waarden. Let wel, beide dimensies zijn 0-indexed. Dat wil zeggen dat je bij 0 begint met tellen voor de eerste rij of kolom. De nummering van de index is nu niet relevant. Probeer bijvoorbeeld `df.loc[50:100].iloc[10:20]` (dit selecteerd de rijen met indexnamen 60 tot 70 als de originele index netjes oplopend is startend vanaf 0).

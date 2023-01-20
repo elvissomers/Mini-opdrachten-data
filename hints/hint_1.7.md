@@ -1,0 +1,2 @@
+# Hint voor opdracht 1.7
+Om zowel rijen als kolommen te selecteren maak je gebruik van `df.loc[rijen, kolommen]`. Hierbij kan je een slice gebruiken in de vorm van `start:stop:step` of een lijst met de exacte waarden die je wil.

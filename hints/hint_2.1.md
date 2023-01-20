@@ -1,0 +1,8 @@
+# Hints voor opdracht 2.1
+- Voor het dit type plot gebruik `plt.hbar()` ([documentatie](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.barh.html)).
+- Om de juiste data te selecteren kan je gebruik maken van `df.value_counts()` ([documentatie](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.value_counts.html)).
+- Van die data subset kan je dan de locaties van de staven bepalen met `data.index` en de hoogte van de staven met `data.values`.
+- Om de titel te plaatsen kan je gebruik maken van `plt.title()` ([documentatie](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.title.html))
+- Om de volgorde van de staven om te draaien kan je de sortering van `df.value_counts()` omdraaien door het keyword (sleutelwoord) argument `ascending=True` mee te geven.
+- Met `plt.grid(axis='x')` kan je specified de gridlines aanzetten voor de x-as. Als je dit doet is het ook handig om het keyword argument `zorder=3` aan de `barh()` toe te voegen (`plt.barh(..., zorder=3)`).
+- Vergeet dan niet een `plt.show()` aan het einde te plaatsen. Dit zorgt ervoor dat je de output van de andere methoden/functies in de cel niet ziet in Jupyter. In een gewoon script is dat de enige manier om de grafiek te tonen. Een alternatief (of tegelijk) zou kunnen zijn om de figuur op te slaan met `plt.savefig()` ([documentatie](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html#matplotlib.pyplot.savefig)).
