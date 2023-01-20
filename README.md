@@ -1,17 +1,11 @@
----
-jupyter:
-  jupytext:
-    formats: py:light,ipynb,md
-    text_representation:
-      extension: .md
-      format_name: markdown
-      format_version: '1.3'
-      jupytext_version: 1.13.7
-  kernelspec:
-    display_name: Python 3 (ipykernel)
-    language: python
-    name: python3
----
+# Instructies:
+1. Clone deze repository met `git clone https://github.com/Freek-H/Mini-opdrachten-data.git`.
+2. Download het zip bestand uit [deze link](https://drive.google.com/file/d/1vWZfjzCXIaVMVeXyU9uSov9WVRmeKUvr/view?usp=sharing). Pak het het CSV bestand uit en plaats het in de `/data` map.
+3. Indien je Jypter `notebook`, `pandas` en/of `matplotlib` not niet geïnstalleerd hebt staan, installeer deze dependencies dan met `pip install -r requirements.txt`. Mocht dat niet werken, probeer dan `py -m pip install -r requirements.txt` voor Windows of `python3 -m pip install -r requirements.txt` voor Linux of MacOS.
+4. Start Jupyter notebook met of `notebook` of als dat niet werkt `py -m notebook` voor Windows of `python3 -m notebook` voor Linux of MacOS.
+
+Mocht je vast zitten met deze instructies of een van de opdrachten, vraag dan vooral hulp aan mij of Felix!
+
 
 # Imports
 
